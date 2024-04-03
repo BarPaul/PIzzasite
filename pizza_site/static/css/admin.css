@@ -1,0 +1,39 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.cheese input[type="submit"] {
+    margin: 0 auto;
+    font-size: 30px;
+    width: 220px !important;
+    padding: 50px !important;
+    border: none;
+    background-color: #7436d8 !important
+}
+form:has(> input.download) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.download {
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    font-size: 26px;
+    border: none;
+    color:whitesmoke;
+    background-color: #7436d8;
+    margin-top: 50px;
+}
+
+table {
+    width: 1300px !important;
+}
+
+
+input[type="submit"]:hover {
+    background-color: #4d2391 !important
+}
